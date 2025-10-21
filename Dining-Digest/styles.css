@@ -1,0 +1,33 @@
+#front-page-script{
+  text-align: center;
+
+}
+
+#front-page-bold{
+
+    font-size: 100px;
+    text-align: center;
+    color: red;
+}
+
+h1{
+
+    font-size: 500 px;
+}
+
+#main-title{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#consent-form{
+    text-align: center
+}
+
+submit{
+    width: 20 px;
+    fill: red;
+
+}

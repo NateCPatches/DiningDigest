@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>dining-digest</title>
   </head>
@@ -10,19 +11,21 @@
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
 
-    <div id="main_title">
-      <img src="img/logo-black.png" alt="The BDH logo in black" style="width:75%">
-      <h2>Data Desk Team presents...</h2>
-      <h1>Dining Digest</h1>   <!--This title is temporary feel free to change-->
+    <div id="main_title" style = text-align:center;>
+      <img id = "herald-logo" src="img/logo-black.png" alt="The BDH logo in black" style="width:75%">
+          </div>
+      <h2 id = "front-page-script"> Data Desk Team presents...</h2>
+      <p id = "front-page-bold"> Dining Digest</p>   <!--This title is temporary feel free to change-->
       <h2>A/W 2025</h2>
-    </div>
 
     <div id="consent-form">
-      <form>
+      <form action = "upload_begin.html">
         <input type="checkbox" id="consent" name="consent" value="consented">
         <label for="consent">I consent to the <a href = "terms.html"> Terms and Conditions.</a> </label>
         <br>
-        <input type="submit" value="Begin">
+        <br>
+        <br>
+        <input type="submit" value="Begin" id = "begin-button">
       </form>
     </div>
 
