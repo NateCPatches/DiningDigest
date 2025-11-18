@@ -1,1 +1,3 @@
-import storage from "../config/firebase.js"
+import db from "../config/firebase.js"
+
+d
