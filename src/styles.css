@@ -1,0 +1,27 @@
+#herald-logo{
+    width: 75%;
+    display: block;
+    text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#front-page-script{
+  text-align: center;
+
+}
+
+#front-page-bold{
+    color: red;
+}
+
+
+#consent-form{
+    text-align: center
+}
+
+submit{
+    width: 20 px;
+    fill: red;
+
+}
